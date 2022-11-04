@@ -1,0 +1,16 @@
+.produto__imagem{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+    height: 220px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .produto__imagem{
+        width: 13rem;
+        height: 13rem;
+    }
+}

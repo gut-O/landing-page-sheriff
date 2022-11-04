@@ -1,0 +1,11 @@
+
+.localizacao__mapa{
+    width: 70%;
+}
+@media screen and (max-width: 768px) {
+    .localizacao__mapa{
+        width: 100%;
+
+    }
+    
+}

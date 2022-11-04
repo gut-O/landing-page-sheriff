@@ -1,0 +1,17 @@
+.produto__descricao{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    width: 330px;
+    flex-wrap: wrap;
+    font-size: 18px;
+ 
+}
+
+@media screen and (max-width: 768px) {
+    .produto__descricao{
+        font-size: 13px;
+        font-weight: 900;
+        padding-left: 3%;
+    }
+
+}
